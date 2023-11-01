@@ -1,0 +1,13 @@
+.custom-footer {
+  font-size: 1.2rem !important;
+  background-color: #007BFF !important;
+  color: #FFFFFF !important;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
