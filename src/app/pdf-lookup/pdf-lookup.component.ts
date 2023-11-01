@@ -63,7 +63,9 @@ export class PdfLookupComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    const id = this.route.snapshot.paramMap.get('id');
-    this.selectedPdf = this.pdfLookup[id as string] || 'assets/default.pdf';
+    this.route.paramMap.subscribe(params => {
+      const id = params.get('id');
+      this.selectedPdf = this.pdfLookup[id as string] || 'assets/default.pdf';
+    });
   }
 }

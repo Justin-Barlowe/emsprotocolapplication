@@ -19,6 +19,8 @@ export class AppComponent {
     element.parentElement?.classList.toggle('show');
     let dropdownMenu = element.nextElementSibling as HTMLElement;
     dropdownMenu?.classList.toggle('show');
+
+
   }
 
 }
