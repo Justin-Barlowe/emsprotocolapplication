@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PdfLookupComponent } from './pdf-lookup/pdf-lookup.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PdfLookupComponent
+    PdfLookupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
