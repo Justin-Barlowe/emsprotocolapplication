@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,19 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Harnett County EMS Protocols';
 
-  public isProtocolMenuOpen = false;
+  constructor(private renderer: Renderer2) { }
 
-  toggleProtocolMenu() {
-    this.isProtocolMenuOpen = !this.isProtocolMenuOpen;
+  closeNavbar(): void {
+    const navbarMenu = this.renderer.selectRootElement('#navbarNavDropdown', true);
+    this.renderer.removeClass(navbarMenu, 'show');
   }
-
-  toggleDropdown(event: Event) {
-    let element = event.currentTarget as HTMLElement;
-    element.parentElement?.classList.toggle('show');
-    let dropdownMenu = element.nextElementSibling as HTMLElement;
-    dropdownMenu?.classList.toggle('show');
-
-
-  }
-
 }
