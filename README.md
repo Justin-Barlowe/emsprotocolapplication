@@ -1,6 +1,8 @@
 # EMS Protocol Application
 
-Welcome to the EMS Protocol Application - a versatile tool for Emergency Medical Services, designed to operate seamlessly across web and Android platforms. This project leverages the robust Angular framework, complemented by the power of Capacitor for native app functionality, ngx-extended-pdf-viewer for viewing PDF documents, and Bootstrap for responsive styling.
+### Work in Progress
+
+Welcome to the EMS Protocol Application - a tool for Emergency Medical Services protocols, policies and procedures, designed to operate seamlessly across web and Android platforms. This project leverages the Angular framework, complemented by the power of Capacitor for native app functionality, ngx-extended-pdf-viewer for viewing PDF documents, and Bootstrap for responsive styling.
 
 ## Getting Started
 
