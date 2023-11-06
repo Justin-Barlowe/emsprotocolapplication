@@ -69,12 +69,12 @@ npx cap open android
 
 ### Documentation and Help
 
-    To learn more about Angular CLI commands, use ng help or visit the  Angular CLI Overview and Command Reference page. https://angular.io/cli
+To learn more about Angular CLI commands, use ng help or visit the  Angular CLI Overview and Command Reference page. https://angular.io/cli
 
-    For Capacitor documentation, check out Capacitor's Official Docs. https://capacitorjs.com/
+For Capacitor documentation, check out Capacitor's Official Docs. https://capacitorjs.com/
 
-    Refer to ngx-extended-pdf-viewer for PDF integration guides. https://www.npmjs.com/package/ngx-extended-pdf-viewer
+Refer to ngx-extended-pdf-viewer for PDF integration guides. https://www.npmjs.com/package/ngx-extended-pdf-viewer
 
-    For styling with Bootstrap, visit Bootstrap's Official Documentation. https://getbootstrap.com/
+For styling with Bootstrap, visit Bootstrap's Official Documentation. https://getbootstrap.com/
 
 Feel free to contribute to the project by submitting pull requests or opening issues. Your feedback and contributions are welcome!
