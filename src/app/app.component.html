@@ -1,6 +1,6 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar py-2">
-  <a class="navbar-brand" routerLink="">Harnett County EMS</a>
+  <a class="navbar-brand" routerLink="" (click)="closeNavbar()">Harnett County EMS</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -13,8 +13,8 @@
           <i class="bi bi-child-fill"></i> Documents
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item js-scroll-trigger" routerLink="/pdf/key80"> Standard Operating Guidelines</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key96"> Bloodborne Pathogens</a></li>
+          <li><a class="dropdown-item js-scroll-trigger" routerLink="/pdf/key80" (click)="closeNavbar()"> Standard Operating Guidelines</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key96" (click)="closeNavbar()"> Bloodborne Pathogens</a></li>
 
 
           <!-- ADD CLOSENAVBAR TO ALL A LINKS -->
@@ -23,16 +23,16 @@
 
 
           <li><a class="dropdown-item" routerLink="/pdf/key97" (click)="closeNavbar()"> Daily Duties</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key98"> Documentation Policy</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key99"> EMD Determinates</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key100"> Mass Casualty Plan</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key101"> Harnett Personnel Ordinance</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key102"> Policies</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key103"> Procedures</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key104"> Protocol Appendix</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key105"> Social Media Policy</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key106"> Training Calendar</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key107"> Full Protocols</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key98" (click)="closeNavbar()"> Documentation Policy</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key99" (click)="closeNavbar()"> EMD Determinates</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key100" (click)="closeNavbar()"> Mass Casualty Plan</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key101" (click)="closeNavbar()"> Harnett Personnel Ordinance</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key102" (click)="closeNavbar()"> Policies</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key103" (click)="closeNavbar()"> Procedures</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key104" (click)="closeNavbar()"> Protocol Appendix</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key105" (click)="closeNavbar()"> Social Media Policy</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key106" (click)="closeNavbar()"> Training Calendar</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key107" (click)="closeNavbar()"> Full Protocols</a></li>
         </ul>
       </li>
 
@@ -44,50 +44,50 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!-- Special Circumstances -->
           <li class="text-center"><i class="bi bi-file-medical-fill"></i> <strong> Special Circumstances</strong></li>
-          <li><a routerLink="/pdf/key81" class="dropdown-item"><i class=""></i> Ebola</a></li>
-          <li><a routerLink="/pdf/key82" class="dropdown-item"><i class=""></i> High-Consequence Pathogens</a></li>
-          <li><a routerLink="/pdf/key83" class="dropdown-item"><i class=""></i> Hospice & Pallative</a></li>
-          <li><a routerLink="/pdf/key85" class="dropdown-item"><i class=""></i> Mass Vaccine</a></li>
-          <li><a routerLink="/pdf/key84" class="dropdown-item"><i class=""></i> Monoclonal Antibody</a></li>
-          <li><a routerLink="/pdf/key77" class="dropdown-item"><i class=""></i> Scene Rehab, General</a></li>
-          <li><a routerLink="/pdf/key76" class="dropdown-item"><i class=""></i> Scene Rehab, Responder</a></li>
+          <li><a routerLink="/pdf/key81" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Ebola</a></li>
+          <li><a routerLink="/pdf/key82" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> High-Consequence Pathogens</a></li>
+          <li><a routerLink="/pdf/key83" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Hospice & Pallative</a></li>
+          <li><a routerLink="/pdf/key85" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Mass Vaccine</a></li>
+          <li><a routerLink="/pdf/key84" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Monoclonal Antibody</a></li>
+          <li><a routerLink="/pdf/key77" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Scene Rehab, General</a></li>
+          <li><a routerLink="/pdf/key76" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Scene Rehab, Responder</a></li>
 
           <!-- Trauma Links -->
           <li class="text-center"><i class="bi bi-fire"></i> <strong> Trauma & Burn</strong></li>
-          <li><a routerLink="/pdf/key32" class="dropdown-item"><i class=""></i> Blast Injury</a></li>
-          <li><a routerLink="/pdf/key35" class="dropdown-item"><i class=""></i> Chemical & Electrical Burn</a></li>
-          <li><a routerLink="/pdf/key45" class="dropdown-item"><i class=""></i> Crush Syndrome</a></li>
-          <li><a routerLink="/pdf/key48" class="dropdown-item"><i class=""></i> Extremity Trauma</a></li>
-          <li><a routerLink="/pdf/key50" class="dropdown-item"><i class=""></i> Head Trauma</a></li>
-          <li><a routerLink="/pdf/key56" class="dropdown-item"><i class=""></i> Multiple Trauma</a></li>
-          <li><a routerLink="/pdf/key75" class="dropdown-item"><i class=""></i> Radiation Incident</a></li>
-          <li><a routerLink="/pdf/key86" class="dropdown-item"><i class=""></i> Selective Spinal</a></li>
-          <li><a routerLink="/pdf/key88" class="dropdown-item"><i class=""></i> Thermal Burn</a></li>
-          <li><a routerLink="/pdf/key91" class="dropdown-item"><i class=""></i> Trauma Arrest</a></li>
+          <li><a routerLink="/pdf/key32" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Blast Injury</a></li>
+          <li><a routerLink="/pdf/key35" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Chemical & Electrical Burn</a></li>
+          <li><a routerLink="/pdf/key45" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Crush Syndrome</a></li>
+          <li><a routerLink="/pdf/key48" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Extremity Trauma</a></li>
+          <li><a routerLink="/pdf/key50" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Head Trauma</a></li>
+          <li><a routerLink="/pdf/key56" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Multiple Trauma</a></li>
+          <li><a routerLink="/pdf/key75" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Radiation Incident</a></li>
+          <li><a routerLink="/pdf/key86" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Selective Spinal</a></li>
+          <li><a routerLink="/pdf/key88" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Thermal Burn</a></li>
+          <li><a routerLink="/pdf/key91" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Trauma Arrest</a></li>
 
           <!-- Toxic Environmental Links -->
           <li class="text-center"><i class="bi bi-virus2"></i> <strong> Toxic-Environmental</strong></li>
-          <li><a routerLink="/pdf/key31" class="dropdown-item"><i class=""></i> Bites & Envenomations</a></li>
-          <li><a routerLink="/pdf/key33" class="dropdown-item"><i class=""></i> Carbon Monoxide</a></li>
-          <li><a routerLink="/pdf/key47" class="dropdown-item"><i class=""></i> Drowning</a></li>
-          <li><a routerLink="/pdf/key51" class="dropdown-item"><i class=""></i> Hyperthermia</a></li>
-          <li><a routerLink="/pdf/key52" class="dropdown-item"><i class=""></i> Hypothermia</a></li>
-          <li><a routerLink="/pdf/key54" class="dropdown-item"><i class=""></i> Marine Envenomations</a></li>
-          <li><a routerLink="/pdf/key58" class="dropdown-item"><i class=""></i> Overdose / Toxic Ingestion</a></li>
-          <li><a routerLink="/pdf/key95" class="dropdown-item"><i class=""></i> WMD - Nerve Agent</a></li>
-          <li><a routerLink="/pdf/key53" class="dropdown-item"><i class=""></i> Law Enforcement - Narcan</a></li>
+          <li><a routerLink="/pdf/key31" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Bites & Envenomations</a></li>
+          <li><a routerLink="/pdf/key33" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Carbon Monoxide</a></li>
+          <li><a routerLink="/pdf/key47" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Drowning</a></li>
+          <li><a routerLink="/pdf/key51" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Hyperthermia</a></li>
+          <li><a routerLink="/pdf/key52" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Hypothermia</a></li>
+          <li><a routerLink="/pdf/key54" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Marine Envenomations</a></li>
+          <li><a routerLink="/pdf/key58" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Overdose / Toxic Ingestion</a></li>
+          <li><a routerLink="/pdf/key95" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> WMD - Nerve Agent</a></li>
+          <li><a routerLink="/pdf/key53" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Law Enforcement - Narcan</a></li>
 
           <!-- Community Medic Links  -->
           <li class="text-center"><i class="bi bi-hospital-fill"></i> <strong> Community Medic</strong></li>
-          <li><a routerLink="/pdf/key37" class="dropdown-item"><i class=""></i> COPD Management</a></li>
-          <li><a routerLink="/pdf/key36" class="dropdown-item"><i class=""></i> CPAP - BiPAP Management</a></li>
-          <li><a routerLink="/pdf/key38" class="dropdown-item"><i class=""></i> Diabetic Management</a></li>
-          <li><a routerLink="/pdf/key39" class="dropdown-item"><i class=""></i> Follow-Up</a></li>
-          <li><a routerLink="/pdf/key41" class="dropdown-item"><i class=""></i> Home Medications</a></li>
-          <li><a routerLink="/pdf/key42" class="dropdown-item"><i class=""></i> Home Safety</a></li>
-          <li><a routerLink="/pdf/key40" class="dropdown-item"><i class=""></i> Lab Draw</a></li>
-          <li><a routerLink="/pdf/key43" class="dropdown-item"><i class=""></i> Social Assessment</a></li>
-          <li><a routerLink="/pdf/key44" class="dropdown-item"><i class=""></i> Wound Check</a></li>
+          <li><a routerLink="/pdf/key37" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> COPD Management</a></li>
+          <li><a routerLink="/pdf/key36" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> CPAP - BiPAP Management</a></li>
+          <li><a routerLink="/pdf/key38" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Diabetic Management</a></li>
+          <li><a routerLink="/pdf/key39" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Follow-Up</a></li>
+          <li><a routerLink="/pdf/key41" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Home Medications</a></li>
+          <li><a routerLink="/pdf/key42" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Home Safety</a></li>
+          <li><a routerLink="/pdf/key40" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Lab Draw</a></li>
+          <li><a routerLink="/pdf/key43" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Social Assessment</a></li>
+          <li><a routerLink="/pdf/key44" class="dropdown-item" (click)="closeNavbar()"><i class=""></i> Wound Check</a></li>
         </ul>
       </li>
 
@@ -101,36 +101,36 @@
           <li class="text-center"><i class="bi bi-heart-fill"></i> <strong>Cardiac</strong></li>
           <!-- Cardiac Links -->
           <li><a routerLink="/pdf/key3" class="dropdown-item"><i class=""></i> Asystole</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key6"><i class=""></i> Bradycardia </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key7"><i class=""></i> Cardiac Arrest </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key8"><i class=""></i> Chest Pain </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key9"><i class=""></i> CHF </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key12"><i class=""></i> CPR Termination </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key19"><i class=""></i> LVAD </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key20"><i class=""></i> Monomorphic Tachycardia </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key22"><i class=""></i> Polymorphic Tachycardia </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key24"><i class=""></i> Post Resusitation </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key25"><i class=""></i> Tachycardia </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key4"><i class=""></i> Team CPR </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key27"><i class=""></i> Ventricular Fibrillation </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key6" (click)="closeNavbar()"><i class=""></i> Bradycardia </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key7" (click)="closeNavbar()"><i class=""></i> Cardiac Arrest </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key8" (click)="closeNavbar()"><i class=""></i> Chest Pain </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key9" (click)="closeNavbar()"><i class=""></i> CHF </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key12" (click)="closeNavbar()"><i class=""></i> CPR Termination </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key19" (click)="closeNavbar()"><i class=""></i> LVAD </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key20" (click)="closeNavbar()"><i class=""></i> Monomorphic Tachycardia </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key22" (click)="closeNavbar()"><i class=""></i> Polymorphic Tachycardia </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key24" (click)="closeNavbar()"><i class=""></i> Post Resusitation </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key25" (click)="closeNavbar()"><i class=""></i> Tachycardia </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key4" (click)="closeNavbar()"><i class=""></i> Team CPR </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key27" (click)="closeNavbar()"><i class=""></i> Ventricular Fibrillation </a></li>
 
           <!-- Airway Section -->
           <li class="text-center"><i class="bi bi-lungs-fill"></i> <strong>Airway</strong></li>
 
           <!-- Airway Links -->
-          <li><a class="dropdown-item" routerLink="/pdf/key11"><i class=""></i> COPD </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key15"><i class=""></i> Drug Assisted Airway </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key23"><i class=""></i> Post Intubation </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key11" (click)="closeNavbar()"><i class=""></i> COPD </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key15" (click)="closeNavbar()"><i class=""></i> Drug Assisted Airway </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key23" (click)="closeNavbar()"><i class=""></i> Post Intubation </a></li>
 
           <!-- Medical Section  -->
           <li class="text-center"><i class="bi bi-capsule"></i> <strong>Medical</strong> </li>
 
           <!-- Medical Links -->
           <li><a routerLink="/pdf/key1" class="dropdown-item"><i class=""></i> Allergic</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key13"><i class=""></i> Diabetic </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key14"><i class=""></i> Dialysis </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key17"><i class=""></i> Hypertension </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key18"><i class=""></i> Hypotension </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key13" (click)="closeNavbar()"><i class=""></i> Diabetic </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key14" (click)="closeNavbar()"><i class=""></i> Dialysis </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key17" (click)="closeNavbar()"><i class=""></i> Hypertension </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key18" (click)="closeNavbar()"><i class=""></i> Hypotension </a></li>
 
           <!-- OB Section -->
           <li class="text-center"><i class="bi bi-person-standing-dress"></i> <strong>OB Emergencies</strong></li>
@@ -149,20 +149,20 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!-- Pediatric Cardiac -->
           <li class="text-center"><i class="bi bi-heart-fill"></i> <strong>Cardiac</strong> </li>
-          <li><a class="dropdown-item" routerLink="/pdf/key62">Asystole</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key64"> Cardiac Arrest</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key62" (click)="closeNavbar()">Asystole</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key64" (click)="closeNavbar()"> Cardiac Arrest</a></li>
 
           <!-- Pediatric Airway -->
           <li class="text-center"><i class="bi bi-heart-fill"></i> <strong>Airway</strong> </li>
-          <li><a class="dropdown-item" routerLink="/pdf/key60"> Airway</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key65"> CHF </a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key67"> Failed Airway</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key60" (click)="closeNavbar()"> Airway</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key65" (click)="closeNavbar()"> CHF </a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key67" (click)="closeNavbar()"> Failed Airway</a></li>
 
           <!-- Pediatric Medical -->
           <li class="text-center"><i class="bi bi-lungs-fill"></i> <strong>Medical</strong></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key61"> Allergic</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key66"> Diabetic</a></li>
-          <li><a class="dropdown-item" routerLink="/pdf/key68"> Hypotension</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key61" (click)="closeNavbar()"> Allergic</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key66" (click)="closeNavbar()"> Diabetic</a></li>
+          <li><a class="dropdown-item" routerLink="/pdf/key68" (click)="closeNavbar()"> Hypotension</a></li>
 
 
         </ul>
@@ -170,7 +170,7 @@
 
       <!-- Admin Section -->
       <li class="nav-item">
-        <a class="nav-link" routerLink="/login" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link" routerLink="/login" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="closeNavbar()">
           <i class="bi bi-child-fill"></i> Admin Area
         </a>
       </li>

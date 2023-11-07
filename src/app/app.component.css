@@ -26,3 +26,10 @@
   color: #007BFF;
 }
 
+.navbar-toggler-icon {
+  color: white !important;
+  outline-color: white !important;
+  background-color: #007BFF !important;
+  border: none !important;
+  border-color: #FFFFFF !important;
+}
